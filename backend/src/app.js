@@ -7,6 +7,7 @@ const app = express();
 const allowedOrigins = new Set([
   "http://localhost:5173",
   "http://localhost:5174",
+  "https://student-support-ticket-system.vercel.app",
 ]);
 
 app.use((req, res, next) => {

@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  color: #0f172a;
+  background: #f7f9f8;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button,
+select,
+input,
+textarea {
+  font: inherit;
+}
+
+button,
+a,
+select {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: #99f6e4;
+  color: #134e4a;
+}
